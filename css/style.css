@@ -368,3 +368,28 @@ h3 {
 #products #welcome .btn {
     width: 100%;
 }
+#products #amazon-basics img {
+    max-width: 110px;
+}
+#products #dress img {
+    max-width: 200px;
+}
+/*DEAL DAY*/
+#product #deal-day {
+    margin-top: 20px;
+    position: relative;
+    min-height: 250px !important;
+}
+#product #deal-day h2 {
+    margin-bottom: 15px;
+}
+#product #deal-day h3 {
+    margin: 0;
+    line-height: 26px;
+}
+#product #deal-day img {
+    max-width: 88px;
+    position: absolute;
+    right: 30px;
+    top: 50px;
+}
