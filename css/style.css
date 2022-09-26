@@ -19,7 +19,7 @@ a:hover {
 /*top banner ad*/
 #banner {
     background: #f6f6f6 url('../img/banner.png') no-repeat top left;
-    height: 80px;
+    height: 55px;
     background-size: 1920px;
     min-width: 1000px;
     display: block;
@@ -185,7 +185,7 @@ header {
     cursor: pointer;
     background: none;
     border: none;
-    text-indent: -9999px;/*it removes the text in the icon*/
+    text-indent: -9999px;/*it removes the text in the button*/
 }
 /*section bellow search bar*/
 #nav-main ul {
@@ -327,7 +327,7 @@ h3 {
 #products .col{
     background: rgb(19,19,4,.04);
     padding: 15px;
-    min-height: 578px;
+    min-height: 500px;
     position: relative;
 }
 #products h2 {
@@ -371,8 +371,9 @@ h3 {
 #products #amazon-basics img {
     max-width: 110px;
 }
+
 #products #dress img {
-    max-width: 200px;
+    max-width: 150px;
 }
 /*DEAL DAY*/
 #product #deal-day {
@@ -392,4 +393,13 @@ h3 {
     position: absolute;
     right: 30px;
     top: 50px;
+}
+#products .footer {
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid #e7e7e7;
+    width: 90%;
+    padding: 17px 0 17px;
+    font-size: 13px;
+    color: #555;
 }
